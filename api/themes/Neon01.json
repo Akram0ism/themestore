@@ -1,0 +1,28 @@
+{
+  "theme": {
+    "meta": {
+      "name": "Neon City Night",
+      "author": "isma&co",
+      "tags": ["Neon", "Anime"],
+      "version": "1.0.0"
+    },
+    "style": {
+      "accentColor": "#48e5ff",
+      "glassOpacity": 0.12,
+      "blur": 20,
+      "radius": 18,
+      "fontFamily": "system-ui"
+    },
+    "background": {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1520975958225-ff90e8f1f0bf?auto=format&fit=crop&w=1600&q=60",
+      "color": null
+    },
+    "layout": {
+      "cards": [
+        { "id": "searchCard", "x": 40, "y": 40, "w": 520, "h": 140, "hidden": false },
+        { "id": "weatherCard", "x": 40, "y": 210, "w": 320, "h": 220, "hidden": false }
+      ]
+    }
+  }
+}
